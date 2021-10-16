@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(207, 204, 204);
+    &__div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__btn{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: chartreuse;
+    }
+}

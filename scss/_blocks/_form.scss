@@ -1,0 +1,33 @@
+.form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 100px;
+    border-radius: 10px;
+    &_email{
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        outline: none;
+    }
+    &_name{
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        outline: none;
+    }
+    &_password{
+        padding: 10px;
+        outline: none;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    &__btn{
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+    }
+}
